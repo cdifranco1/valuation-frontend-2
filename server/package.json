@@ -1,0 +1,20 @@
+{
+  "name": "valuation-backend-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.3.0",
+    "apollo-server": "^2.19.2",
+    "graphql": "^15.5.0",
+    "mongodb": "^3.6.3",
+    "nodemon": "^2.0.7"
+  }
+}
